@@ -1,6 +1,10 @@
 #body1{
     background-color: #c890a7;
     text-align: center;
+    
+    p{
+        background-color: #FBF5E5;
+    }
 }
 
 #body2{
@@ -20,4 +24,8 @@
 
 #h5{
 font-size: large;
+}
+
+#body3{
+    background-color: #c890a7;
 }

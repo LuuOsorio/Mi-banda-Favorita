@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/estilos.css">
 </head>
-<body>
+
+<body id="body3">
     <a href="./discografia.html">Ver discografía</a>
-<h1>Añadir Comentario</h1>
+    <h1>Añadir Comentario</h1>
     <form action="" method="post">
         <label for="nombre-completo">Nombre</label>
         <input type="text" name="nombre-completo" id="nombre-completo" placeholder="nombre completo">
-        <label for="apellido-paterno">Apellido Paterno</label>
-        <input type="text" name="apellido-paterno" id="apellido-paterno" placeholder="apellido paterno">
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="apellido completo">
+        <label for="correo-electronico">Correo electrónico</label>
+        <input type="email" name="correo-electronico" id="correo-electronico" placeholder="correo">
+
+        <div class="input-field">
+            <textarea class="area" rows="6"></textarea>
+        </div>
+        <button class="boton-enviar-comentario" type="submit">Enviar comentario</button>
 
     </form>
 </body>
+
 </html>
