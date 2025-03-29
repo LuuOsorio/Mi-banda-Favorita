@@ -1,0 +1,23 @@
+#body1{
+    background-color: #c890a7;
+    text-align: center;
+}
+
+#body2{
+    background-color: #212121 ;
+    text-align: center;
+}
+
+.parrafos-estilos{
+    background-color: #A35C7A;
+    text-justify: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.lista-estilos{
+    background-color: #c890a7;
+}
+
+#h5{
+font-size: large;
+}
